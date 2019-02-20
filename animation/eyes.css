@@ -1,0 +1,83 @@
+body{background-color: black;}
+
+
+
+#eye1{
+     position: relative;
+     top: 200px;
+     left: 100px;
+    width: 400px;
+    height: 200px;
+    background: white;
+    border-radius: 400px / 210px;
+    float: left;
+    overflow-y: hidden;
+  }
+
+  #eye2{
+    position: relative;
+    top:200px;
+    left: 400px;
+   width: 400px;
+   height: 200px;
+   background: white;
+   border-radius: 400px / 210px;
+   overflow-y: hidden;
+ }
+
+ #iris1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+    animation-name: moving;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+  }
+
+  #iris2{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+    animation-name: moving;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+  }
+
+
+
+  @keyframes  moving{
+    0%{
+        transform: translate(10,0);
+    }
+
+
+
+    100%{transform: translate(200px,0)}
+}
+
+
+@keyframes  moving{
+    0%{
+        transform: translate(10,0);
+    }
+
+
+    0%{
+        transform: translate(50,0);
+    }
+
+    0%{
+        transform: translate(100,0);
+    }
+
+    0%{
+        transform: translate(150,0);
+    }
+
+
+    100%{transform: translate(200px,0)}
+}

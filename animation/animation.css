@@ -1,0 +1,71 @@
+
+@keyframes  moving{
+    0%{
+        transform: translate(-300px,0);
+    }
+
+
+
+    100%{transform: translate(600px,0)}
+}
+
+@keyframes walk{
+    0%{
+        transform: roatate(-5deg);
+    }
+
+    50%{transform: rotate(5deg)}
+
+    100%{transform: rotate(-5deg)}
+}
+
+
+
+
+
+body{background-color: royalblue;}
+
+
+#wrapper{position: relative;
+    height:400px;
+width:100px;
+animation-name: moving;
+animation-duration: 4s;
+animation-fill-mode:forwards;
+animation-iteration-count: infinite;}
+
+
+#ground{widows: 100vw;
+height:10px;
+background-color: gray;}
+
+#head{width: 100px;
+height: 100px;
+background-color: slategray;
+border-radius: 50px;
+}
+
+#body{width: 100px;
+height: 150px;
+background-color: black;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.legs{width:50px;
+height:150px;
+background-color:yellow;
+display: inline-block;}
+
+#legtwo{background-color: yellowgreen;
+}
+
+.foot{position: absolute;
+left:10px
+bottom:0px;
+background-color:black;
+width:50px;
+height :30px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
