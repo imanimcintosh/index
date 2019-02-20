@@ -24,10 +24,7 @@ a:link {
     -moz-perspective: 900px;	  
     -webkit-perspective: 900;}
     
-  #container:hover * {
-    -moz-animation-play-state:paused;
-    -webkit-animation-play-state:paused}
-      
+
   #frame {width: 200px;
     -moz-transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;  /* translate must be last */
