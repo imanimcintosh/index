@@ -2,7 +2,7 @@ body{ background-color: #f9fafc;
     opacity: .9
 }
 
-#wrapper{margin:0 auto;}
+#wrapper{margin:0}
 
 a:link, a:visited {
     width: 100px;
