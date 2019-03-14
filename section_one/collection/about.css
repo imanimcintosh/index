@@ -1,50 +1,52 @@
 body{ background-color:black;}
 
 a:link, a:visited {
-    width: 100px;
-    height: 100px;
-    background: #ffea09;
-    border-radius: 50%;
-    -webkit-filter: blur(7px);
-    position: absolute;
-    top: 50px;
-    left: 100px;
+  width: 8vw;
+  height: 8vw;
+  background: #ffea09;
+  border-radius: 50%;
+  -webkit-filter: blur(7px);
+  position: absolute;
+  top: 4vw;
+  left: 8vw;
    
   }
 
 #text1{font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 130px;
-    left: 150px;
-    font-size: 35px;
+    top: 8vw;
+    left: 6vw;
+    font-size: 3vw;
     color: black;
 text-align: center;}
 
   #picture {
-    width: 800px;
-    height: 600px;
+    width: 40vw;
+    height: 40vw;
     border-style: groove;
     border-color: red;
     background-color: #f9fafc;
     border-radius: 90%;
-    -webkit-filter: blur(100px);
+    -webkit-filter: blur(40px);
     position: absolute;
-    top: 70px;
-    left: 350px;
+    top: 4vw;
+    left: 28vw;
+    animation-name: blurs;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 
     #grad1 {
-        position: absolute;
-        left: 30px;
-        height: 723px;
-        width: 1200px;
-        border-radius: 40%;
-      background-image: radial-gradient(rgb(255, 247, 157), rgb(250, 198, 240), rgb(198, 203, 255));
-      animation: colorchange 10s;
-      -webkit-animation:colorchange 10s; 
-      animation-iteration-count: infinite;
-          animation-direction: alternate-reverse;
-          -webkit-filter: blur(50px);
+      height: 60vw;
+      width: 100%;
+      border-radius: 40%;
+    background-image: radial-gradient(rgb(255, 247, 157), rgb(250, 198, 240), rgb(198, 203, 255));
+    animation: colorchange 10s;
+    -webkit-animation:colorchange 10s; 
+    animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        -webkit-filter: blur(50px);
       }
       
       @keyframes colorchange
