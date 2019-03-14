@@ -1,0 +1,14 @@
+
+#container{font-family: helvetica;
+    color: blue;
+    font-size: 40px;
+
+}
+
+#head{font-family: helvetica;
+    color: blue;
+    font-size: 50px;
+    position: relative;
+    left: 35px;}
+
+    ol{ list-style-type:none;}

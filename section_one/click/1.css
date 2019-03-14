@@ -1,0 +1,21 @@
+*{font-size: 30px;}
+
+h1{font-family:Arial, Helvetica, sans-serif;
+font-style: italic;}
+
+.myaddedListElement{color: lime;}
+
+
+img{width:25vw;}
+
+#imageButton{
+    display: inline-block;
+    background-color: black;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#container{color: lime;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;}

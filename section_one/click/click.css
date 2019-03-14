@@ -1,0 +1,23 @@
+*{
+	font-size: 25px;
+}
+
+
+
+.newClass{
+	font-size: 50px;
+	text-decoration: line-through;
+	background-color: pink;
+}
+
+.button{
+	display: inline-block;
+	background-color: lightskyblue;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.button:hover{
+	color: white;
+}

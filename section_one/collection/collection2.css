@@ -1,0 +1,30 @@
+body{background-color: black;}
+
+#energy{
+    position:absolute;
+    top:50px;
+    left:400px;
+    cursor: pointer;
+    opacity:.5;}
+
+    #energy2{
+        position:absolute;
+        top:50px;
+        left:400px;
+    opacity:.2;
+    cursor: pointer;}
+
+    #energy3{
+        position:absolute;
+        top:50px;
+        left:400px;
+    opacity:.2;
+    cursor: pointer;}
+
+    #energy4{
+        position:absolute;
+        top:50px;
+        left:400px;
+    opacity:.2;
+    cursor: pointer;}
+

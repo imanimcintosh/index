@@ -1,0 +1,263 @@
+body{ background-color: #f9fafc;
+    opacity: .9
+}
+
+
+a:link, a:visited {
+    width: 100px;
+    height: 100px;
+    background: #ffea09;
+    border-radius: 50%;
+    -webkit-filter: blur(7px);
+    position: absolute;
+    top: 50px;
+    left: 100px;
+   
+  }
+
+
+
+
+
+
+  #picture {
+    width: 530px;
+    height: 500px;
+    border-style: groove;
+    border-color: red;
+    background-color: #f9fafc;
+    border-radius: 90%;
+    -webkit-filter: blur(40px);
+    position: absolute;
+    top: 70px;
+    left: 350px;
+    animation-name: blurs;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+  }
+
+  
+
+  #changeColor{ 
+      width: 800px;
+      height: 40px;
+      background-color: #ff991c;
+      -webkit-filter: blur(10px);
+      position: absolute;
+      top: 630px;
+      margin-left: 16%;
+      margin-right: auto;
+      cursor: pointer;
+    }
+
+    #me{position: absolute;
+        top:40px;
+    left:350px;
+    -webkit-filter: blur(.3px)}
+
+
+    #text{
+        position: absolute;
+        height: 300px;
+        top:40px;
+        left:1000px;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #c7c8ca17;
+    }
+
+    @keyframes blurs {
+        from {
+            -webkit-filter: blur(20px); /* Safari */
+            filter: blur(5px);border-color: #ff9a1e;  }
+        to {
+            -webkit-filter: blur(100px); /* Safari */
+            filter: blur(30px); border-color:#ffff81; }
+      }
+
+
+
+      
+
+#energy{
+    position:absolute;
+    top:40px;
+    left:420px;
+    opacity:.2;
+    }
+
+    #energy2{
+        position:absolute;
+        top:40px;
+        left:420px;
+    opacity:.2;
+    }
+
+    #energy3{
+        position:absolute;
+        top:40px;
+        left:420px;
+    opacity:.2;
+    }
+
+    #energy4{
+        position:absolute;
+        top:45px;
+        left:420px;
+    opacity:.2;
+   }
+
+    #energy5{
+        position:absolute;
+        top:50px;
+        left:430px;
+    opacity:.2;
+    }
+    #energy6{
+        position:absolute;
+        top:55px;
+        left:430px;
+    opacity:.2;
+   }
+    
+    #energy7{
+        position:absolute;
+        top:55px;
+        left:430px;
+    opacity:.2;
+   }
+
+
+    #energy8{
+        position:absolute;
+        top:64px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy9{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy10{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy11{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy12{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy13{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+    #energy14{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    } 
+    #energy15{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy16{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy17{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy18{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy19{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+    #energy20{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+    #energy21{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+    #energy22{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+    #energy23{
+        position:absolute;
+        top:65px;
+        left:415px;
+    opacity:.2;
+    }
+
+
+
+    #grad1 {
+        
+  height: 723px;
+  width: 1280px;
+  border-radius: 40%;
+background-image: radial-gradient(rgb(255, 247, 157), rgb(250, 198, 240), rgb(198, 203, 255));
+animation: colorchange 10s;
+-webkit-animation:colorchange 10s; 
+animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    -webkit-filter: blur(50px);
+}
+
+@keyframes colorchange
+    {
+      0%   {background-image: radial-gradient(rgba(255, 247, 157, 0.899), rgba(250, 198, 240, 0.81), rgba(198, 203, 255, 0.728));}
+      25%  {background-image: radial-gradient(rgb(183, 104, 222), rgba(142, 245, 252, 0.954), rgba(254, 82, 82, 0.934));}
+      50%  {background-image: radial-gradient(rgba(161, 138, 172, 0.899), rgba(235, 255, 10, 0.92), rgb(248, 9, 113));}
+      75%  {background-image: radial-gradient(rgb(252, 185, 103), rgba(253, 161, 232, 0.81), rgba(32, 255, 159, 0.899));}
+      100% {background-image: radial-gradient(rgb(255, 251, 144), rgb(241, 28, 28), rgb(150, 139, 206));}
+    }

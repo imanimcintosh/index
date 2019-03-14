@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div id="grad1"></div>
+<a href="about.html"></a>
+
+ <div id="picture"><div id="picture2"></div></div>
+<img id="energy" src="energy1.png" width="400"></img>
+<img id="energy2" src="energy2.png" style="display:none;"width="400"></img>
+<img id="energy3" src="energy3.png" style="display:none;"width="400"></img>
+<img id="energy4" src="energy4.png" style="display:none;"width="400"></img>
+<img id="energy5" src="energy5.png" style="display:none;"width="400"></img>
+<img id="energy6" src="energy6.png" style="display:none;"width="400"></img>
+<img id="energy7" src="energy7.png" style="display:none;"width="400"></img>
+<img id="energy8" src="energy8.png" style="display:none;"width="400"></img>
+<img id="energy9" src="energy9.png" style="display:none;"width="400"></img>
+</div>
+
+
+
+
+ <div id="changeColor"></div>
+<style>
+body{ background-color: #f9fafc;
+    opacity: .9
+}
+
+
+a:link, a:visited {
+    width: 60px;
+    height: 60px;
+    background: #ffe100;
+    border-radius: 50%;
+    -webkit-filter: blur(7px);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+   
+  }
+
+
+#about {
+    width: 60px;
+    height: 60px;
+    background: #ffff81;
+    border-radius: 50%;
+    -webkit-filter: blur(7px);
+    position: absolute;
+    top: 50px;
+    left: 30px;
+
+  }
+
+
+
+  #picture {
+    width: 530px;
+    height: 500px;
+    background-color: #f9fafc;
+    border-radius: 90%;
+    -webkit-filter: blur(80px);
+    position: absolute;
+    top: 70px;
+    left: 350px;
+    animation-name: blurs;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: ;
+
+  }
+
+  
+
+  #changeColor{ 
+      width: 800px;
+      height: 25px;
+      background-color: #5b9aff;
+      -webkit-filter: blur(10px);
+      position: absolute;
+      top: 630px;
+      margin-left: 15%;
+      margin-right: auto;
+      cursor: pointer;
+    }
+
+    #me{position: absolute;
+        top:40px;
+    left:350px;
+    -webkit-filter: blur(.3px)}
+
+
+    #text{
+        position: absolute;
+        height: 300px;
+        top:40px;
+        left:1000px;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #c7c8ca17;
+    }
+
+    @keyframes blurs {
+        from {
+            -webkit-filter: blur(20px); /* Safari */
+            filter: blur(5px);border-color: #ff9a1e;  }
+        to {
+            -webkit-filter: blur(100px); /* Safari */
+            filter: blur(30px); border-color:#ffff81; }
+      }
+
+
+
+      
+
+#energy{
+    position:absolute;
+    top:40px;
+    left:420px;
+    cursor: pointer;
+    opacity:.2;
+    }
+
+    #energy2{
+        position:absolute;
+        top:40px;
+        left:420px;
+    opacity:.2;
+    cursor: pointer;}
+
+    #energy3{
+        position:absolute;
+        top:40px;
+        left:420px;
+    opacity:.2;
+    cursor: pointer;}
+
+    #energy4{
+        position:absolute;
+        top:45px;
+        left:420px;
+    opacity:.2;
+    cursor: pointer;}
+
+    #energy5{
+        position:absolute;
+        top:40px;
+        left:400px;
+    opacity:.2;
+    cursor: pointer;}
+    #energy6{
+        position:absolute;
+        top:30px;
+        left:400px;
+    opacity:.2;
+    cursor: pointer;}
+    
+    #energy7{
+        position:absolute;
+        top:30px;
+        left:400px;
+    opacity:.2;
+    cursor: pointer;}
+
+
+    #energy8{
+        position:absolute;
+        top:50px;
+        left:390px;
+    opacity:.2;
+    cursor: pointer;}
+
+    #energy9{
+        position:absolute;
+        top:50px;
+        left:390px;
+    opacity:.1;
+    cursor: pointer;}
+
+
+
+    #grad1 {
+        
+  height: 723px;
+  width: 1280px;
+  border-radius: 40%;
+background-image: radial-gradient(rgb(255, 247, 157), rgb(250, 198, 240), rgb(198, 203, 255));
+animation: colorchange 30s;
+-webkit-animation:colorchange 30s; 
+animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    -webkit-filter: blur(50px);
+}
+
+@keyframes colorchange
+    {
+      0%   {background-image: radial-gradient(rgba(255, 247, 157, 0.899), rgba(250, 198, 240, 0.81), rgba(198, 203, 255, 0.728));}
+      25%  {background-image: radial-gradient(rgb(183, 104, 222), rgba(142, 245, 252, 0.954), rgba(254, 82, 82, 0.934));}
+      50%  {background-image: radial-gradient(rgba(161, 138, 172, 0.899), rgba(235, 255, 10, 0.92), rgb(248, 9, 113));}
+      75%  {background-image: radial-gradient(rgb(252, 185, 103), rgba(253, 161, 232, 0.81), rgba(32, 255, 159, 0.899));}
+      100% {background-image: radial-gradient(rgb(255, 251, 144), rgb(241, 28, 28), rgb(150, 139, 206));}
+    }
+</style>
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+<script>
+
+var changeColor=document.getElementById("changeColor");
+var energy2=document.getElementById("energy2");
+var energy3=document.getElementById("energy3");
+var energy4=document.getElementById("energy4");
+var energy5=document.getElementById("energy5");
+var energy6=document.getElementById("energy6");
+var energy7=document.getElementById("energy7");
+var energy8=document.getElementById("energy8");
+var energy9=document.getElementById("energy9");
+var i = 0;
+
+function displayImage() {
+i++;
+  if (i == 1){
+    energy2.style.display = "block";
+  }else if(i == 2){
+    energy3.style.display = "block";
+  }else if(i == 3){
+    energy4.style.display = "block";
+  }else if(i == 4){
+    energy5.style.display = "block";
+  }else if(i == 5){
+    energy6.style.display = "block";
+  }else if(i == 6){
+    energy7.style.display = "block";
+  }else if(i == 7){
+    energy8.style.display = "block";
+  }else if(i == 8){
+    square2.style.display = "block";
+  }else if(i == 9){
+    square3.style.display = "block";
+  }else if(i == 10){
+    triangle2.style.display = "block";
+  }else if(i == 11){
+    text.style.display = "block";
+  }else if(i == 12){
+    text2.style.display ="block";
+  }else if(i == 13){
+    la.style.display = "block";
+  }else if(i == 14){
+    square5.style.display = "block";
+  }else if(i == 15){
+    square6.style.display = "block";
+  }else if(i == 16){
+    square7.style.display = "block";
+  }else if(i == 17){
+    square8.style.display = "block";
+  }else if(i == 18){
+    square9.style.display = "block";
+  }else{
+    i = 1;
+  }
+}
+
+
+
+
+changeColor.onclick=displayImage
+
+</script>
+
+</body>
+</html>
