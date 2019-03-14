@@ -2,17 +2,17 @@ body{ background-color: #f9fafc;
     opacity: .9
 }
 
-
+#wrapper{margin:0}
 
 a:link, a:visited {
-    width: 8vw;
-    height: 8vw;
+    width: 100px;
+    height: 100px;
     background: #ffea09;
     border-radius: 50%;
     -webkit-filter: blur(7px);
     position: absolute;
-    top: 4vw;
-    left: 8vw;
+    top: 50px;
+    left: 100px;
    
   }
 
@@ -22,16 +22,16 @@ a:link, a:visited {
 
 
   #picture {
-    width: 40vw;
-    height: 40vw;
+    width: 530px;
+    height: 500px;
     border-style: groove;
     border-color: red;
     background-color: #f9fafc;
     border-radius: 90%;
     -webkit-filter: blur(40px);
     position: absolute;
-    top: 4vw;
-    left: 28vw;
+    top: 70px;
+    left: 350px;
     animation-name: blurs;
     animation-duration: 30s;
     animation-iteration-count: infinite;
@@ -43,13 +43,13 @@ a:link, a:visited {
   
 
   #changeColor{ 
-      width: 70vw;
-      height: 6vh;
+      width: 800px;
+      height: 40px;
       background-color: #ff991c;
       -webkit-filter: blur(10px);
       position: absolute;
-      top: 47vw ;
-      left: 17vw;
+      top: 630px;
+      margin-left: 16%;
       margin-right: auto;
       cursor: pointer;
     }
@@ -243,8 +243,8 @@ a:link, a:visited {
 
     #grad1 {
         
-  height: 60vw;
-  width: 100%;
+  height: 723px;
+  width: 1280px;
   border-radius: 40%;
 background-image: radial-gradient(rgb(255, 247, 157), rgb(250, 198, 240), rgb(198, 203, 255));
 animation: colorchange 10s;
