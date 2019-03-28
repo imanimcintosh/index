@@ -1,0 +1,100 @@
+#leftside{background-color: black;
+ height: 100%;
+width: 50%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+left: 0;
+}
+
+#rightside{background-color: black;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+}
+
+#simple{
+    width:30vw;
+    height: 44vh;
+    position: absolute;
+    animation: bounce 1.9s infinite alternate;
+  -webkit-animation: bounce 1.9s infinite alternate;
+left:40%;
+z-index: 2;
+}
+
+#icu{
+    width:30vw;
+    height: 60vh;
+    animation: bounce 1.4s infinite alternate;
+  -webkit-animation: bounce 1.4s infinite alternate;
+  position: absolute;
+left:2%;
+top:5%;
+}
+
+#loop{
+    width:30vw;
+    animation: bounce 1.5s infinite alternate;
+  -webkit-animation: bounce 1.5s infinite alternate;
+  position: absolute;
+left:38%;
+top:37%;
+}
+
+#responsive{
+    width:30vw;
+    height: 45vh;
+    animation: bounce 2.3s infinite alternate;
+  -webkit-animation: bounce 2.3s infinite alternate;
+  position: absolute;
+left:3%;
+top:50%;
+}
+
+#relative{
+    width:30vw;
+    height: 30vh;
+    animation: bounce 1.8s infinite alternate;
+  -webkit-animation: bounce 1.8s infinite alternate;
+  position: absolute;
+left:20%;
+top:76%;
+}
+
+
+#frame{position: relative;
+   top: 30%;
+    display: block;
+    margin:auto;
+   width:40vw;
+   height: 40vh;
+
+}
+
+
+
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="j-query.css">
+   
+<body>
+
+<h1 class="myelements">this is about jquery </h1>
+<div class="myelements mydivs" id="first_div">hello jquery</div>
+<div class="myelements mydivs" id="second_div">hello jquery</div>
+   
+<script type="text/javascript" src="jquery.min.js"></script> 
+<script type="text/javascript">
+
+
+$(window).ready(function(){
+
+
+
+
+var myFirstDiv = $("#first_div");
+var myContent = myFirstDiv.html();
+var myCSS ={
+    "background-color" : "red",
+    "font-size" : "300px"
+};
+myFirstDiv.css(myCSS).append("<a>a link</a>");
+
+
+
+})
+
+
+</script>
+</body>
+</html>
