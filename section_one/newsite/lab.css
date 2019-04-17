@@ -9,7 +9,7 @@ padding-top: 20px;
 left: 0;
 }
 
-#rightside{background-color: black;
+#rightside{background-color: rgb(255, 255, 148);
     height: 100%;
     width: 50%;
     position: fixed;
@@ -67,6 +67,16 @@ top:50%;
   position: absolute;
 left:20%;
 top:76%;
+}
+
+#chain{
+    width:30vw;
+    height: 30vh;
+    animation: bounce 1.2s infinite alternate;
+  -webkit-animation: bounce 1.2s infinite alternate;
+  position: absolute;
+left:60%;
+top:60%;
 }
 
 

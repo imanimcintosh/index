@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="j-query.css">
+   
+<body>
+
+    <img src="xxxxxx_off.jpg"alt="xyz"class="ImageOnOff"style="cursor:pointer"/>
+   
+<script type="text/javascript" src="jquery.min.js"></script> 
+<script type="text/javascript">
+
+$(function () {
+            $(".img-swap").live("click", function () {
+                if ($(this).attr("class") == "img-swap") {
+                    this.src = this.src.replace("undo", "redo");
+                } else {
+                    this.src = this.src.replace("redo", "undo");
+                }
+                $(this).toggleClass("on");
+            });
+        });
+
+
+</script>
+</body>
+</html>

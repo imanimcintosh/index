@@ -1,0 +1,60 @@
+a:link {
+    color: blue; 
+    background-color: transparent; 
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
+    position: absolute;
+    top: 93%;
+    left:33%;
+  }
+
+  a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;}
+
+    p {color: blue;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 200%;
+      margin: 14%;
+      position: relative;
+    top: 350px;}
+      
+      div.hidden
+      {
+         display: none
+      }
+
+
+  .circle {
+    width: 115px;
+    height: 115px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 50%;
+    position: relative;
+    margin: 3.5%;
+    float: left;
+    top: 70px;
+  }
+
+  .numbers{ font-size: 450%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+position :relative;
+text-align: center;
+top:14%;
+}
+
+#levels{ color: blue; 
+  background-color: transparent; 
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 450%;
+  position: absolute;
+  top: 93%;
+  left:35%;}
+
+
+    
