@@ -1,3 +1,5 @@
+
+
 a:link {
     color: blue; 
     background-color: transparent; 
@@ -51,10 +53,48 @@ top:14%;
   background-color: transparent; 
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 450%;
+  font-size: 100%;
+  position: absolute;
+  top: 94%;
+  left:40%;}
+
+  #fingers{position: absolute;
+  top: 25%;
+  left:3.5%;}
+
+  #dot{width: 115px;
+    height: 115px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+  left: 44%;
+}
+
+  .level1promt{ 
+    background-color: transparent; 
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    position: absolute;
+    top: 93%;
+    left:25%;
+    display: none;}
+  
+.level2promt{background-color: transparent; 
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 250%;
   position: absolute;
   top: 93%;
-  left:35%;}
+  left:10%;
+  display: none;}
 
-
-    
+  .level3promt{background-color: transparent; 
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    position: absolute;
+    top: 93%;
+    left:15%;
+    display: none;}
