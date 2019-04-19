@@ -1,7 +1,7 @@
 $('div').fadeIn(4000);
 
 function setup() {
-    createCanvas(970, 2110);
+    createCanvas(2200, 2110);
     background(255);
   }
   
@@ -14,5 +14,5 @@ function setup() {
     }
   }
 
-
+$("#defaultCanvas0").attr("style", "width:100vw; height: 100vh;");
   
