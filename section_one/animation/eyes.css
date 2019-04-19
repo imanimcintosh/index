@@ -3,31 +3,31 @@ body{background-color: black;}
 
 
 #eye1{
-     position: relative;
-     top: 200px;
-     left: 100px;
-    width: 400px;
-    height: 200px;
+     position:absolute;
+     top: 30%;
+     left: 10%;
+    width: 30vw;
+    height: 28vh;
     background: white;
-    border-radius: 400px / 210px;
+    border-radius: 30vw / 28vh;
     float: left;
     overflow-y: hidden;
   }
 
   #eye2{
-    position: relative;
-    top:200px;
-    left: 400px;
-   width: 400px;
-   height: 200px;
+    position: absolute;
+    top:30%;
+    left: 60%;
+   width: 30%;
+   height: 28vh;
    background: white;
-   border-radius: 400px / 210px;
+   border-radius: 30vw / 28vh;
    overflow-y: hidden;
  }
 
  #iris1{
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 30vh;
     background: red;
     border-radius: 50%;
     animation-name: moving;
@@ -37,8 +37,8 @@ animation-direction: alternate;
   }
 
   #iris2{
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 30vh;
     background: red;
     border-radius: 50%;
     animation-name: moving;
