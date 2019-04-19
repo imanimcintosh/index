@@ -1,14 +1,16 @@
 
 #container{font-family: helvetica;
     color: blue;
-    font-size: 40px;
+    font-size: 3vw;
+    left: 3%;
 
 }
 
 #head{font-family: helvetica;
     color: blue;
-    font-size: 50px;
+    font-size: 4vw;
     position: relative;
-    left: 35px;}
+    left:3%;}
 
-    ol{ list-style-type:none;}
+    ol{ list-style-type:none;
+    left: 3%;}
