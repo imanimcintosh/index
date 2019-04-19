@@ -14,5 +14,5 @@ function setup() {
     }
   }
 
-$("#defaultCanvas0").attr("style", "width:100vw; height: 100vh;");
+// $("#defaultCanvas0").attr("style", "width:100vw; height: 100vh;");
   
