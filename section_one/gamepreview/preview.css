@@ -2,8 +2,8 @@ body{
   overflow: hidden;
 }
 
-canvas{height:100vh;
-width:100vw;}
+/*canvas{height:100vh;
+width:100vw;}*/
 
 a:link {
     color: blue; 
@@ -103,5 +103,14 @@ top:14%;
     top: 93%;
     left:15%;
     display: none;}
+
+    .level4promt{background-color: transparent; 
+      text-decoration: none;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 250%;
+      position: absolute;
+      top: 93%;
+      left:30%;
+      display: none;}
 
   

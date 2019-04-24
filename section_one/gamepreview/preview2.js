@@ -1,7 +1,10 @@
 $('div').fadeIn(4000);
 
 function setup() {
-    createCanvas(2200, 2110);
+  var windowHeight = window.innerHeight;
+  var windowWidth = window.innerWidth;
+  console.log(windowHeight, windowWidth)
+  createCanvas(windowWidth, windowHeight);
     background(255);
   }
   
@@ -14,5 +17,17 @@ function setup() {
     }
   }
 
- $("#defaultCanvas0").attr("style", "width:100vw; height: 100vh;");
+  function windowResized() {
+
+    //var windowHeight = window.innerHeight;
+    // var windowWidth = window.innerWidth;
+
+    // resizeCanvas(windowWidth, windowHeight) 
+
+
+    console.log("window changed", windowHeight, windowWidth)
+    $("#defaultCanvas0").css({"width" : windowWidth + "px", "height" : windowHeight +"px" })
+  }
+
+ //$("#defaultCanvas0").attr("style", "width:100vw; height: 100vh;");
   
