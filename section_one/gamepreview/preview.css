@@ -2,6 +2,12 @@ body{
   overflow: hidden;
 }
 
+body.modal-open {
+  
+  overflow: hidden;
+  position: fixed;
+}
+
 /*canvas{height:100vh;
 width:100vw;}*/
 
@@ -107,7 +113,7 @@ top:14%;
     .level4promt{background-color: transparent; 
       text-decoration: none;
       font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: 250%;
+      font-size: 100%;
       position: absolute;
       top: 93%;
       left:30%;
