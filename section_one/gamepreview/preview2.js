@@ -25,8 +25,8 @@ function setup() {
     // resizeCanvas(windowWidth, windowHeight) 
 
 
-    console.log("window changed", windowHeight, windowWidth)
-    $("#defaultCanvas0").css({"width" : windowWidth + "px", "height" : windowHeight +"px" })
+    //console.log("window changed", windowHeight, windowWidth)
+   $("#defaultCanvas0").css({"width" : windowWidth + "px", "height" : windowHeight +"px" })
   }
 
  //$("#defaultCanvas0").attr("style", "width:100vw; height: 100vh;");
