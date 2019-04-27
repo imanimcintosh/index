@@ -47,10 +47,11 @@ a:link {
     border-style: solid;
     border-color: blue;
     border-radius: 50%;
-    position: relative;
+    position: fixed;
     margin: 3.5%;
     float: left;
-    top: 70px;
+    left: 60%;
+    top: 50%;
   }
 
   .numbers{ font-size: 450%;
@@ -78,8 +79,8 @@ top:14%;
     height: 115px;
     background-color: blue;
     border-radius: 50%;
-    position: absolute;
-    top: 48%;
+    position: fixed;
+    top: 50%;
   left: 44%;
 }
 
@@ -120,4 +121,6 @@ top:14%;
       left:30%;
       display: none;}
 
-  
+      /*<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      </head>
