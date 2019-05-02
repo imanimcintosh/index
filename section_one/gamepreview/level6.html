@@ -29,13 +29,33 @@
                                 display: none
                                 }
                 
+                                .circle{position:fixed;
+                                        top:4vh;
+                                        left: -16vw;
+                                        width: 1400px;
+                                        height: 1400px;
+                                        background: red;
+                                        border-radius: 50%;
+                                        animation-name: blur;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes blur {
+  from {
+      -webkit-filter: blur(5px); /* Safari */
+      filter: blur(5px);background-color:red;  }
+  to {
+      -webkit-filter: blur(500px); /* Safari */
+      filter: blur(500px); background-color:red; }
+}
                                         </style>
 
 
-<div id="dot"></div>
+<div class="circle"></div> 
 
 <div class="hidden"> 
-<a href="level7.html">
+<a href="level5.html">
 <img src="next copy.png" style="position: relative;
                                     top:82vh;
                                     left:87vw;"></img>
@@ -46,7 +66,7 @@
  <div class="level2promt">
                 Breathe hot air onto the screen.
 </div>
-
+ 
                 
 
             <script type="text/javascript" src="jquery.min.js"></script>

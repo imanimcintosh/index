@@ -1,4 +1,11 @@
-$('div').fadeIn(4000);
+
+
+
+$('.hidden').fadeIn(5000);
+$('div').fadeIn(5000);
+
+
+
 
 function setup() {
   var windowHeight = window.innerHeight;

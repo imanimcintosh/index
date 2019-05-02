@@ -8,7 +8,7 @@
                                 body{
                                 overflow: hidden;
                                 position: fixed; 
-                                background-color: blue;
+                                background-color: #0000ff;
                                 }
                 
                                
@@ -28,15 +28,42 @@
                                 {
                                 display: none
                                 }
+
+                                #sniff{
+                                position: relative;
+                                top:45vh;
+                                left:39vw;
+                                background-color:white;
+                                width:100vw;
+                                border-radius: 50%;
+                                animation-name: size,blur;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+animation-direction: reverse;
+transition-timing-function: ease-out;
+transform: scaleX(-1);}
+
+                        @keyframes size {
+  0%   { height: 0px; width:0;}
+  100% { height:900px;with:100vw; }
+}
+@keyframes blur {
+  from {
+      -webkit-filter: blur(0px); /* Safari */
+      filter: blur(0px);background-color:white;  }
+  to {
+      -webkit-filter: blur(200px); /* Safari */
+      filter: blur(200px); background-color:white; }
+}
                 
                                         </style>
 
 
-<div id="dot"></div>
+<div id="sniff"></div>
 
 <div class="hidden"> 
-<a href="level14.html">
-<img src="next copy.png" style="position: relative;
+<a href="level37.html">
+<img src="next copy.png" style="position: fixed;
                                     top:82vh;
                                     left:87vw;"></img>
  </a>
@@ -44,7 +71,7 @@
 
 
  <div class="level13promt">
-                Sniff the phone.
+                Sniff the screen.
 </div>
 
                 
