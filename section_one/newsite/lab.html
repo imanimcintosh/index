@@ -9,13 +9,17 @@
 
 	<div id="leftside">
 
-         <a href="https://imanimcintosh.github.io/Projects/assignment1/ladybug.html" target="iframe"><img id="simple" src="simplehtml.svg"></img></a>
-         <a href="https://imanimcintosh.github.io/index/section_one/animation/eyes.html"target="iframe"><img id="icu" src="icu.svg"></img></a>
-         <a href="https://imanimcintosh.github.io/index/section_one/on_click/on_click.html"target="iframe"><img id="loop" src="loop.svg"></img></a>
-         <a href="https://imanimcintosh.github.io/Projects/breakpoints/index.html"target="iframe"><img id="responsive" src="responsive.svg"></img></a>
-         <a href="https://imanimcintosh.github.io/Projects/positioning_excercise/positioning_exercise.html"target="iframe"><img id="relative" src="relative.svg"></img></a>
-         <a href="https://imanimcintosh.github.io/index/section_one/loop/while_loop.html"target="iframe"><img id="chain" src="chainreaction.svg"></img></a>
-         <a href="https://imanimcintosh.github.io/index/section_one/gamepreview/preview.html"><img id="chain" src="chainreaction.svg"></img></a>
+         <a class="project" href="https://imanimcintosh.github.io/Projects/assignment1/ladybug.html" target="iframe" data-title="Lady Bug"><img id="simple" src="simplehtml.svg"></img></a>
+         <a class="project" href="https://imanimcintosh.github.io/index/section_one/animation/eyes.html"target="iframe"data-title="Eyes"><img id="icu" src="icu.svg"></img></a>
+         <a class="project"href="https://imanimcintosh.github.io/index/section_one/on_click/on_click.html"target="iframe"data-title="On click"><img id="loop" src="loop.svg"></img></a>
+         <a class="project"href="https://imanimcintosh.github.io/Projects/breakpoints/index.html"target="iframe"data-title="Breakpoints"><img id="responsive" src="responsive.svg"></img></a>
+         <a class="project" href="https://imanimcintosh.github.io/Projects/positioning_excercise/positioning_exercise.html"target="iframe"data-title="Positioning"><img id="relative" src="relative.svg"></img></a>
+         <a class="project" href="https://imanimcintosh.github.io/index/section_one/javatest/javatest.html"target="iframe"data-title="Weaving"><img id="weaving" src="weaving.svg" style=></img></a>
+         <a class="project"href="https://imanimcintosh.github.io/index/section_one/loop/while_loop.html"target="iframe"data-title="LOOP"><img id="chain" src="chainreaction.svg"></img></a>
+         <a class="project"href="https://imanimcintosh.github.io/index/section_one/j-query/j_query.html"target="iframe"data-title="Crybaby Spring Time"><img id="cry" src="cry.png"></img></a>
+         <a class="project"href="https://imanimcintosh.github.io/index/section_one/poster/poster.html"target="iframe"data-title="Design lecture poster"><img id="tracy" src="tracy.png"></img></a>
+         <a class="project"href="https://imanimcintosh.github.io/index/section_one/the_dialogue/text.html"target="iframe"data-title="Dialauge2"><img id="d1" src="d1.png"></img></a>
+       
          
     </div>
 
@@ -25,7 +29,7 @@
     <div id="rightside">
 
        <iframe id="frame" iframe src="https://imanimcintosh.github.io/Projects/breakpoints/index.html" style="border:10px solid BLACK;" name="iframe"></iframe>
-
+         <a id="link" href=""></a>
     </div>    
 
 
@@ -33,9 +37,19 @@
 
 
 
-    <script type="text/javascript" src="jquery.min.js"></script> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
     <script type="text/javascript">
+      $(document).ready(function(){
+        
+          $(".project").on("click", function(){
+            $("#link").attr("href", $(this).attr("href"))  // swap out link
 
+            $("#link").html($(this).attr("data-title")) // get the title we've saved
+
+         })
+
+      })
+      
 
 </script>
 </body>

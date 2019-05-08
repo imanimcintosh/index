@@ -55,7 +55,7 @@ top:37%;
     animation: bounce 2.3s infinite alternate;
   -webkit-animation: bounce 2.3s infinite alternate;
   position: absolute;
-left:3%;
+left:2%;
 top:50%;
 }
 
@@ -78,7 +78,44 @@ top:76%;
 left:60%;
 top:60%;
 }
+#weaving{
+  width:20vw;
+  height: 70vh;
+  animation: bounce 1s infinite alternate;
+-webkit-animation: bounce 1s infinite alternate;
+position: absolute;
+left:70%;
+top:30%;
+}
 
+#cry{
+ 
+  animation: bounce 1s infinite alternate;
+-webkit-animation: bounce 1s infinite alternate;
+position: absolute;
+left:20%;
+top:70%;
+}
+
+#tracy{
+  width:20vw;
+ 
+  animation: bounce 1.2s infinite alternate;
+-webkit-animation: bounce 1.2s infinite alternate;
+position: absolute;
+left:60%;
+top:90%;
+}
+
+#d1{
+  width:20vw;
+ 
+  animation: bounce 1.2s infinite alternate;
+-webkit-animation: bounce 1.2s infinite alternate;
+position: absolute;
+left:35%;
+top:100%;
+}
 
 #frame{position: relative;
    top: 30%;
@@ -88,6 +125,15 @@ top:60%;
    height: 40vh;
 
 }
+
+a{text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(115, 181, 232);}
+
+#link{position: fixed;
+top:80%;
+left:54%;
+font-size: 200%;}
 
 
 
