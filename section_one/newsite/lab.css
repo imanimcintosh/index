@@ -55,7 +55,7 @@ top:37%;
     animation: bounce 2.3s infinite alternate;
   -webkit-animation: bounce 2.3s infinite alternate;
   position: absolute;
-left:2%;
+left:-6%;
 top:50%;
 }
 
@@ -100,21 +100,41 @@ top:70%;
 #tracy{
   width:20vw;
  
-  animation: bounce 1.2s infinite alternate;
--webkit-animation: bounce 1.2s infinite alternate;
+  animation: bounce 1s infinite alternate;
+-webkit-animation: bounce 1s infinite alternate;
 position: absolute;
 left:60%;
 top:90%;
 }
 
 #d1{
-  width:20vw;
+  height:25vw;
  
   animation: bounce 1.2s infinite alternate;
 -webkit-animation: bounce 1.2s infinite alternate;
 position: absolute;
 left:35%;
 top:100%;
+}
+
+#d2{
+  height:25vw;
+ 
+  animation: bounce 1.2s infinite alternate;
+-webkit-animation: bounce 1.2s infinite alternate;
+position: absolute;
+left:50%;
+top:100%;
+}
+#collection{
+  width:20vw;
+ 
+  animation: bounce .9s infinite alternate;
+-webkit-animation: bounce .9s infinite alternate;
+position: absolute;
+left:4%;
+top:100%;
+transform: rotate(-25deg);
 }
 
 #frame{position: relative;
