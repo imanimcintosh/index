@@ -35,8 +35,8 @@ a:link, a:visited {
   @keyframes example {
     0%   { left:8vw; top:8vw;}
     25%  {left:20vw; top:3vw;}
-    50%  { left:200vw; top:8vw;}
-    75%  { left:30vw; top:30vw;}
+    50%  { left:90vw; top:12vw;}
+    75%  { left:30vw; top:85vh;}
     100% { left:8vw; top:8vw;}
   }
 
