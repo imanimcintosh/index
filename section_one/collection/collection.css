@@ -14,11 +14,12 @@ a:link, a:visited {
     top: 4vw;
     left: 8vw;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
-    animation-duration: 15s;
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-duration: 10s;
     animation-name: example;
     animation-iteration-count:infinite;
     z-index: 1;
+    animation-timing-function: linear;
    
   }
 
@@ -28,11 +29,11 @@ a:link, a:visited {
   
   /* Standard syntax */
   @keyframes example {
-    0%   { left:400px; top:200px;}
-    15%   { left:600px; top:500px;}
+    0%   { left:8vw; top:8vw;}
+    15%   { left:20vw; top:50vw;}
     25%  {left:1000px; top:1000px;}
     50%  { left:1900px; top:900px;}
-    75%  { left:2600px; top:600px;}
+    75%  { left:2000px; top:600px;}
     100% { left:400px; top:200px;}
   }
 
