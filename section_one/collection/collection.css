@@ -1,5 +1,6 @@
 body{ background-color: #f9fafc;
     opacity: .9;
+    overflow: hidden;
    
 }
 html{
