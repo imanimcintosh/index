@@ -36,7 +36,7 @@ a:link, a:visited {
     0%   { left:8vw; top:8vw;}
     25%  {left:20vw; top:3vw;}
     50%  { left:90vw; top:12vw;}
-    75%  { left:30vw; top:85vh;}
+    75%  { left:30vw; top:85vw;}
     100% { left:8vw; top:8vw;}
   }
 
